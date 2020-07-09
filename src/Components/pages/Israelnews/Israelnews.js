@@ -20,7 +20,7 @@ function Israelnews() {
     return (
         <div>
 <Header/>
-            <h1 style={{textAlign:'center'}}>TOP NEWS</h1>
+            <h1 style={{textAlign:'center'}}>TOP NEWS ISRAEL</h1>
            <div className="row">
             {news.map((noticias)=>{
              return <Plantilla 
