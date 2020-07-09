@@ -20,7 +20,7 @@ function Israelnews() {
     return (
         <div>
 <Header/>
-            <h1>ESTAS SON LAS NOTICIAS DE ISRAEL</h1>
+            <h1>NOTICIAS DE ISRAEL</h1>
         </div>
     )
 }
