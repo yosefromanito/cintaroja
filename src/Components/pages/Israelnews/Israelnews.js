@@ -3,19 +3,20 @@ import Header from '../../Header/Header'
 import axios from 'axios'
 function Israelnews() {
     
-    const url = 'http://newsapi.org/v2/top-headlines?country=il&apiKey=dfb4be6513f44f54aae2a7b47999a581'
-     axios.get(url)
-     
-  
+    const[news, getNews]=useState([])
+        const url =`http://newsapi.org/v2/top-headlines?country=il&apiKey=dfb4be6513f44f54aae2a7b47999a581`
+        useEffect(()=>{
         axios.get(url)
-        .then((response)=>{
-    let todo = response.data
-   console.log(todo)
-        })
-        .catch((err)=>{
-    alert(err);
-        });
-      Israelnews()
+    .then((res)=>{
+    
+        console.log(res.Json)
+        var todo=res.Json
+        getNews(todo)
+    })
+    .catch((err)=>{
+        console.log(err)
+    });
+        },[])
     return (
         <div>
 <Header/>

@@ -13,10 +13,10 @@ function Header() {
             <Link className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" to ="/Israelnews">ISRAEL NEWS</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">MEXICO NEWS</Link>
+            <Link className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" to ="/Mexiconews">MEXICO NEWS</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">USA NEWS</a>
+            <Link className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" to ="/Usanews">USA NEWS</Link>
           </li>
         </ul>
        
