@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import Header from '../../Header/Header'
 import axios from "axios"
+import Plantilla from `../plantilla/Plantilla.js`
 function Usanews() {
     
  const[news, getNews]=useState([])
