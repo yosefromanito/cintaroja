@@ -1,9 +1,9 @@
-import React from 'react'
+
 import Header from '../../Header/Header'
-    import React,{useEffect,useState} from 'react'
-import Header from '../../Header/Header'
+import React,{useEffect,useState} from 'react'
+
 import axios from "axios"
-import Plantilla from `../plantilla/Plantilla.js`
+import Plantilla from '../plantilla/Plantilla.js'
 function Mexiconews() {
     
  const[news, getNews]=useState([])
@@ -25,10 +25,18 @@ return (
   <div>
 <Header/>
       <h1> NOTICIAS DE MÉXICO</h1>
-      {news.map((todo)=>{
-       return(<h3>{todo.title}</h3>)
-      })}
-  </div>
+      <div className="row">
+      {news.map((noticias)=>{
+       return<Plantilla 
+       titulo={noticias.title}
+       contexto={noticias.description}
+       referencia={noticias.source.name}
+       imagen={noticias.urlToImage}
+       url={noticias.url}
+       />
+      }
+       )}
+  </div></div>
 )
 }
 
