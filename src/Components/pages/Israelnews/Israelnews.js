@@ -22,6 +22,7 @@ function Israelnews() {
        <div>
            
 <Header/>
+<<<<<<< HEAD
 
      
             <h1 style={{textAlign:'center'}}>TOP NEWS ISRAEL</h1>
@@ -39,6 +40,9 @@ function Israelnews() {
             })
             }
                </div> 
+=======
+            <h1>NOTICIAS DE ISRAEL</h1>
+>>>>>>> 8f06ae52a04164a52e43eac4694634fc3482bb93
         </div>
     )
 }
