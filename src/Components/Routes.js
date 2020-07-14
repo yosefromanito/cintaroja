@@ -4,6 +4,7 @@ import Home from '../Components/pages/Home/Home'
 import Israelnews from '../Components/pages/Israelnews/Israelnews'
 import Mexiconews from '../Components/pages/Mexiconews/Mexiconews'
 import Usanews from '../Components/pages/Usanews/Usanews'
+
 function Routes() {
     return(
         <BrowserRouter>

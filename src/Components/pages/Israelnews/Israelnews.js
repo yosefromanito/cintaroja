@@ -18,8 +18,12 @@ function Israelnews() {
     });
     },[])
     return (
-        <div>
+       
+       <div>
+           
 <Header/>
+
+     
             <h1 style={{textAlign:'center'}}>TOP NEWS ISRAEL</h1>
            <div className="row">
             {news.map((noticias)=>{
