@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
-
+import {Link} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.css'
  function Footer() {
  return (
  
@@ -23,7 +24,10 @@ import './Footer.css'
  <button type className="btn btn-link" to="#">PUBLICIDAD</button>
  </li>
  <li className="lista2 nav-item">
- <button  className="btn btn-link" to="#">POLÍTICA DE PRIVACIDAD</button>
+ 
+ <Link className="btn btn-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" to ="/Avisodepriv" >Aviso de privacidad</Link>
+
+ 
   </li>           
   </ul>
   </nav>

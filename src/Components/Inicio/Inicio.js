@@ -4,6 +4,7 @@ import './Inicio.css'
 function Inicio(props) {
     
     return (
+<>
         <div className="col-md-12">
             <div className="card">
                
@@ -15,6 +16,7 @@ function Inicio(props) {
             </div>
             
         </div>
+        </>
     )
 }
 

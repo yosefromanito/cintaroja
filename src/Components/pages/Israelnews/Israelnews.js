@@ -4,6 +4,7 @@ import axios from 'axios'
 import Plantilla from '../plantilla/Plantilla'
 import './Israelnews.css'
 import Footer from '../../Footer/Footer'
+import Topheader from '../../Topheader/Topheader'
 function Israelnews() {
     const[news, getNews]=useState([])
         const url =`http://newsapi.org/v2/top-headlines?country=il&apiKey=dfb4be6513f44f54aae2a7b47999a581`
@@ -21,7 +22,7 @@ function Israelnews() {
     return (
        
        <div>
-           
+    <Topheader/>        
 <Header/>
 
      

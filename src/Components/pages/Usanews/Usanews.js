@@ -3,6 +3,7 @@ import Header from '../../Header/Header'
 import axios from "axios"
 import Plantilla from '../plantilla/Plantilla.js'
 import Footer from '../../Footer/Footer'
+import Topheader from '../../Topheader/Topheader'
 function Usanews() {
     
  const[news, getNews]=useState([])
@@ -22,6 +23,7 @@ function Usanews() {
   },[])
 return (
   <div>
+<Topheader/> 
 <Header/>
       <h1 style={{textAlign:'center'}}> NOTICIAS DE USA</h1>
       <div className="row">

@@ -4,6 +4,7 @@ import React,{useEffect,useState} from 'react'
 import Footer from '../../Footer/Footer'
 import axios from "axios"
 import Plantilla from '../plantilla/Plantilla.js'
+import Topheader from '../../Topheader/Topheader'
 function Mexiconews() {
     
  const[news, getNews]=useState([])
@@ -23,6 +24,7 @@ function Mexiconews() {
   },[])
 return (
   <div>
+<Topheader/> 
 <Header/>
       <h1 style={{textAlign:'center'}}> NOTICIAS DE MÉXICO</h1>
       <div className="row">
