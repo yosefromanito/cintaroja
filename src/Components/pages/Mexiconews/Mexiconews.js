@@ -1,7 +1,7 @@
 
 import Header from '../../Header/Header'
 import React,{useEffect,useState} from 'react'
-
+import Footer from '../../Footer/Footer'
 import axios from "axios"
 import Plantilla from '../plantilla/Plantilla.js'
 function Mexiconews() {
@@ -24,7 +24,7 @@ function Mexiconews() {
 return (
   <div>
 <Header/>
-      <h1> NOTICIAS DE MÉXICO</h1>
+      <h1 style={{textAlign:'center'}}> NOTICIAS DE MÉXICO</h1>
       <div className="row">
       {news.map((noticias)=>{
        return<Plantilla 
@@ -36,7 +36,9 @@ return (
        />
       }
        )}
-  </div></div>
+       <Footer/>
+  </div>
+  </div>
 )
 }
 

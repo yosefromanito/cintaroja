@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import Header from '../../Header/Header'
 import axios from "axios"
 import Plantilla from '../plantilla/Plantilla.js'
+import Footer from '../../Footer/Footer'
 function Usanews() {
     
  const[news, getNews]=useState([])
@@ -22,7 +23,7 @@ function Usanews() {
 return (
   <div>
 <Header/>
-      <h1> NOTICIAS DE USA</h1>
+      <h1 style={{textAlign:'center'}}> NOTICIAS DE USA</h1>
       <div className="row">
       {news.map((noticias)=>{
        return<Plantilla 
@@ -34,7 +35,9 @@ return (
        />
       }
        )}
-  </div></div>
+<Footer/>
+  </div>
+  </div>
 )
 }
 
