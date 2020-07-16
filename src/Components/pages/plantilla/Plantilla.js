@@ -11,7 +11,7 @@ function Plantilla(props) {
             <h5 className="card-title">{props.titulo}</h5>
             <p className="card-text">{props.contexto}</p>
             <p className="card-text"><small className="text-muted">{props.referencia}</small></p>
-        <a href={props.url}>ir a toda la noticia</a>
+        <a href={props.url} className='links'>IR A NOTICIA</a>
           </div>
         </div>
       </div>

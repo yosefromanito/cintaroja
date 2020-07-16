@@ -1,11 +1,11 @@
 import React from 'react'
 import './Topheader.css'
-import Gn from './Gn.png'
+import Gn from './images.png'
 function Topheader() {
     return (
-        <div className="container">
+        <div >
         <div className="estilos">
-          <img src={Gn}></img>
+          <img className='imagen' src={Gn}></img>
             <h1 className="parrafo">Global News</h1>
         </div>
         </div>

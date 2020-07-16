@@ -1,5 +1,10 @@
 .header{
-    background-color: blue ;
-    height: 30px;
-    width: auto;
+    
+  background-color: black;
+ padding-left: 400px;
+  font-size: 22px;
+  color: white;
+}
+.nav-link{
+    color: white;
 }

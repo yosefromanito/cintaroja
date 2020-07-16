@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
+import Topheader from '../../Topheader/Topheader'
 function Avisodepriv() {
     return (
         <div>
+            <Topheader/>
             <Header/>
             <h1>Aviso de privacidad del sitio.</h1>
             <p>Este contrato describe los términos y condiciones generales (en adelante, los "Términos y Condiciones Generales") aplicables al uso de los servicios ofrecidos por DeRemate.com de México, S. de R.L de C.V., MercadoLibre, S. de R.L de C.V. y Mercado Lending, S.A de C.V (en adelante, "los Servicios") dentro del sitio www.mercadolibre.com.mx y www.deremate.com.mx (en adelante, el "Sitio"). DeRemate.com de México, S. de R.L de C.V., MercadoLibre, S. de R.L de C.V., Mercado Lending, S.A de C.V el Sitio serán referidos en el Sitio y en estos Términos y Condiciones Generales, indistintamente, como MercadoLibre. Cualquier persona que desee acceder y/o usar el sitio o los servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales, junto con todas las demás políticas y principios que rigen Mercado Libre y que son incorporados al presente por referencia.
